@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Sparkles, Heart } from 'lucide-react';
+import { ExternalLink, Sparkles } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 
 export const Footer: React.FC = () => {
@@ -26,8 +26,8 @@ export const Footer: React.FC = () => {
 
         {/* Developer / Creator Button */}
         <div className="flex items-center gap-3">
-          <span className={`text-xs font-medium flex items-center gap-1 ${isDark ? 'text-white/60' : 'text-slate-600'}`}>
-            {t.developedWithLove} <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500 inline" />
+          <span className={`text-xs font-medium ${isDark ? 'text-white/60' : 'text-slate-600'}`}>
+            تم التطوير بواسطة
           </span>
 
           <a
@@ -49,4 +49,3 @@ export const Footer: React.FC = () => {
     </footer>
   );
 };
-
