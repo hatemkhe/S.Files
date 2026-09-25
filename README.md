@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Full-Stack Web Application
 
-# Run and deploy your AI Studio app
+A modern web application built with Node.js and React. This project provides a complete end-to-end solution with a dynamic frontend and custom backend API integration.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/16420a9e-c33a-4c9b-88c8-bda8c6b7ed30
+- Fully responsive user interface
+- Modular component architecture
+- API integration for dynamic data fetching
+- Clean and maintainable codebase
 
-## Run Locally
+## Getting Started
 
-**Prerequisites:**  Node.js
+### Prerequisites
 
+Make sure you have **Node.js** (v18 or higher) installed on your system.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/YourUsername/YourRepository.git](https://github.com/YourUsername/YourRepository.git)
