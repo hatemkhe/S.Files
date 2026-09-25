@@ -1,6 +1,1 @@
-{
-  "name": "S.Files",
-  "description": "تحويل صيغ الملفات بمختلف أنواعها مباشرة عبر المتصفح (صور، فيديو، صوت، مستندات) - S.Files Client-side File Converter",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
+
